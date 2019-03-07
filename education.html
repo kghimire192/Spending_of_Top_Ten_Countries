@@ -1,0 +1,99 @@
+<!doctype html>
+<!-- education.html -->
+<html>
+	<head>
+		<script type="text/javascript"
+				src="https://www.gstatic.com/charts/loader.js"></script>
+		<script type="text/javascript"
+				src="education.js"></script>
+		<link rel="stylesheet" href="css.css"></link>
+	</head>
+	<body>
+		<!-- Start -->
+		<div class="container">
+
+				<div class="top-container">
+					<h1 class="title">Spending Behavior Of Top 10 Countries<img class="g20-image" src="G20.png" alt="G20 Nations"></h1>
+				</div>
+				<div class="nav">
+					<ul class="nav-items">
+						<li><a class="link" href="index.html">HOME</a></li>
+						<li><a class="link selected" href="education.html">EDUCATION</a></li>
+						<li><a class="link" href="healthcare.html">HEALTHCARE</a></li>
+						<li><a class="link" href="military.html">MILITARY</a></li>
+					</ul>
+				</div>
+		<!-- End -->
+			
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<h2>Education Expenditure</h2>
+			<p>Education expenditure refers to the current operating expenditures in education, 
+			which includes wages and salaries and excludes capital investments in buildings and equipment.</p>
+			<p>The figure below shows the education expenditure in current US dollars, in billions, for each of the 10 countries
+			from year 2011 to 2015.</p>
+			
+			<div class="graph-container">
+				<div id="education"
+				style="width:850px; height:500px;"></div>
+			</div>
+			<br />
+			
+			<p>Similarly, the graph below shows the education expenditure for each of the countries as a percentage of their GDP. The year selected
+			 were from 2011 to 2015.</p>
+			
+			<div class="graph-container">
+				<div id="education_GDP"
+				style="width:850px; height:500px;"></div>
+			</div>
+			<br />
+			<br />
+			
+			<h2>Comparison of Education Expenditure Per Capita to GDP Per Capita</h2>
+			<p>The bubble charts below show the correlation between GDP per capita and education expenditure per capita. The first bubble chart uses the  
+			data for 10 countries for year 2011, whereas the second bubble chart uses the data for year 2015.</p>
+			
+			<div class="graph-container">	
+				<div id="education_PerCapita2011"
+				style="width:900px; height:500px;"></div>
+			</div>
+			<br />
+			<div class="graph-container">	
+				<div id="education_PerCapita2015"
+				style="width:900px; height:500px;"></div>
+			</div>
+			
+			<br />
+			<br />
+			
+			<h2>Education Expenditure Growth</h2>
+			<p>The growth in education expenditure can be calculated as the difference of the spending between the years. The first two graphs
+			display the trend in education expenditure growth from 2011 to 2015 for each country. The Geo chart shows the percentage of education spending growth for each country from 2011 to 2015.</p>
+			<div class="graph-container">
+				<div id="education_Growth"
+				style="width:900px; height:500px;"></div>
+			</div>
+			
+			<br />
+			<br />
+			<p>The United States have been removed from the time series plot below for the ease of readings of other countries.</p>
+			<div class="graph-container">
+				<div id="education_Growth_withoutUS"
+				style="width:900px; height:500px;"></div>
+			</div>
+			
+			<br />
+			<br />
+			<p>Finally, the Geo chart below shows the percentage growth in education spending for each of the 10 countries. Hovering over the map will display the data. 
+			The range of the growth are about 47 percent (positive growth) to about -33 percent (negative growth).</p>
+		
+			<div class="graph-container">
+				<div id="education_Growth_percent"
+				style="width:900px; height:500px;"></div>
+			</div>
+		</div>		
+	</body>
+</html>

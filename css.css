@@ -1,0 +1,76 @@
+body {
+    background-color: white;
+}
+
+.container {
+    width: 1000px;
+    margin: auto
+}
+.top-container {
+    height: 250px;
+    background-image: url("background.jpg")
+}
+.graph-container {
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    padding: 20px;
+    color: darkblue;
+}
+
+.g20-image {
+    height: 200px;
+    top: 10px;
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+/* NavBar Menu */
+
+    /* Classes and Containers */
+    .nav {
+        width: 100%;
+    }
+    .link {
+        text-decoration: none;
+        height: 20px;
+    }
+    .nav-items {
+        float: right;
+        position: relative
+    }
+
+/* Tags */
+    ul {
+        list-style: none;
+    }
+    ul li {
+        display: inline;
+    }
+    li {
+        margin: 10px;
+    }
+    a:visited {
+        color: darkblue;
+    }
+    a {
+        color: darkblue;
+    }
+    a:hover {
+        text-decoration: underline;
+        text-decoration-color: darkblue
+    }
+	.selected {
+	color: gray !important;
+}
+
+/* End NavBar Menu */
